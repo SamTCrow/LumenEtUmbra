@@ -39,9 +39,9 @@ Si apre così una finestra apposita (telnet, appunto) che consente al nostro com
 
 Quale che sia il modo in cui vi siete collegati, vi troverete di fronte a questa schermata:
 
-Ogni giocatore su LeU e' tenuto a leggere, conoscere e rispettare:bril regolamento del gioco senza alcuna eccezione.
+Ogni giocatore su LeU e' tenuto a leggere, conoscere e rispettare\:bril regolamento del gioco senza alcuna eccezione.
 
-Per leggere il regolamento digitate 'help regolamento' una volta:brentrati in gioco.
+Per leggere il regolamento digitate 'help regolamento' una volta\:brentrati in gioco.
 
 Nome del personaggio ('nuovo' per nuovo personaggio)::brSe è la prima volta che vi connettete, digitate nuovo e proseguite, seguendo le semplici istruzioni a video, per creare un vostro personaggio.
 

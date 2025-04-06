@@ -1,6 +1,6 @@
 ---
-page: "index"
-title: "index"
+page: index
+title: index
 ---
 
 ![Logo](/Logo.png){ style="margin: auto"}

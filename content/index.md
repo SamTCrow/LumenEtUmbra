@@ -1,9 +1,9 @@
 ---
-page: "index"
-title: "index"
+page: index
+title: index
 ---
 
-![Logo](/Logo.png){ style="margin: auto"}
+![Logo](/Logo.png){style="margin: auto"}
 
 ## Benvenuti
 
@@ -39,14 +39,11 @@ Si apre così una finestra apposita (telnet, appunto) che consente al nostro com
 
 Quale che sia il modo in cui vi siete collegati, vi troverete di fronte a questa schermata:
 
-Ogni giocatore su LeU e' tenuto a leggere, conoscere e rispettare  
- il regolamento del gioco senza alcuna eccezione.
+Ogni giocatore su LeU e' tenuto a leggere, conoscere e rispettare:bril regolamento del gioco senza alcuna eccezione.
 
-Per leggere il regolamento digitate 'help regolamento' una volta  
- entrati in gioco.
+Per leggere il regolamento digitate 'help regolamento' una volta:brentrati in gioco.
 
-Nome del personaggio ('nuovo' per nuovo personaggio):  
-Se è la prima volta che vi connettete, digitate nuovo e proseguite, seguendo le semplici istruzioni a video, per creare un vostro personaggio.
+Nome del personaggio ('nuovo' per nuovo personaggio)::brSe è la prima volta che vi connettete, digitate nuovo e proseguite, seguendo le semplici istruzioni a video, per creare un vostro personaggio.
 
 Se avete già creato un personaggio, digiterete invece il nome del vostro personaggio e la vostra password. La password scelta viene criptata automaticamente dal server, quindi non è leggibile da parte di nessuno. Abbiate cura di scegliere una password non troppo ovvia per il vostro personaggio e di non consentirne l'accesso a chiunque.
 

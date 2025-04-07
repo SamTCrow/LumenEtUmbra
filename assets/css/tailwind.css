@@ -4,6 +4,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html {
+	scroll-behavior: smooth;
+}
+
 :root {
 	--background: oklch(1 0 0);
 	--foreground: oklch(0.145 0 0);
@@ -124,17 +128,38 @@
 }
 
 h1 {
-	@apply text-4xl font-extrabold tracking-tight scroll-m-20 lg:text-5xl;
+	@apply text-4xl font-extrabold tracking-tight scroll-m-20 lg:text-5xl py-4;
 }
 
 h2 {
-	@apply pb-2 text-3xl font-semibold tracking-tight transition-colors border-b scroll-m-20 first:mt-0;
+	@apply pb-2 text-3xl font-semibold tracking-tight transition-colors border-b scroll-m-20 first:mt-0 py-2;
 }
 
 h3 {
-	@apply text-2xl font-semibold tracking-tight scroll-m-20;
+	@apply text-2xl font-semibold tracking-tight scroll-m-20 py-2 underline before:content-['#'];
 }
 
 p {
-	@apply leading-7 [&:not(:first-child)]:mt-6 [&:not(:last-child)]:mb-6;
+	@apply leading-7 [&:not(:first-child)]:mt-2 [&:not(:last-child)]:mb-2;
 }
+
+table {
+	@apply w-full m-4;
+}
+
+tr {
+	@apply m-0 border-t p-0 even:bg-muted;
+}
+
+th {
+	@apply border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right;
+}
+
+td {
+	@apply border px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right;
+}
+
+blockquote {
+	@apply mt-6 border-l-2 pl-6 italic;
+}
+

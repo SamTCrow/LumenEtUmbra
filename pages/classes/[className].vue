@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 	const path = useRoute().path;
-	const { data: page } = await useAsyncData(() => queryCollection("content").path(path).first());
+	const { data: page } = useAsyncData(() => queryCollection("content").path(path).first());
 </script>
 
 <template>
@@ -9,4 +9,5 @@
 		:value="page"
 		class="text-pretty"
 	/>
+	<div v-else>Loading...</div>
 </template>

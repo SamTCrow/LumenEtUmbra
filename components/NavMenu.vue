@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-	import { navigationMenuTriggerStyle } from "./ui/navigation-menu";
-
 	const menuItems = ref([
 		{
 			label: "Home",

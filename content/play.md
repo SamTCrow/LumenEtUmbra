@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 page: "play"
+=======
+page: play
+title: play
+>>>>>>> b6619c344d4fa7e0cb241ffeb6a2995927c1880b
 ---
 
 # Inizia a giocare subito!

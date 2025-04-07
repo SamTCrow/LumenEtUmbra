@@ -1,3 +1,7 @@
+---
+page: "play"
+---
+
 # Inizia a giocare subito!
 
 Per poter iniziare a giocare subito, segui queste semplici istruzioni:

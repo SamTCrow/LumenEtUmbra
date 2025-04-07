@@ -1,11 +1,10 @@
 ---
 page: index
-title: index
 ---
 
 ![Logo](/Logo.png){style="margin: auto"}
 
-## Benvenuti
+# Benvenuti
 
 Benvenuti nelle pagine Wikia dedicate alle terre di Lumen et Umbra.
 

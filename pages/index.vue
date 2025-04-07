@@ -1,10 +1,12 @@
 <script lang="ts" setup>
-	const { data: page } = await useAsyncData(() => queryCollection("content").path("/").first());
+	const { data: page } = useAsyncData(() => queryCollection("content").path("/").first());
 </script>
 
 <template>
 	<ContentRenderer
 		v-if="page"
 		:value="page"
-		class="text-pretty" />
+		class="text-pretty"
+	/>
+	<div v-else>Loading...</div>
 </template>

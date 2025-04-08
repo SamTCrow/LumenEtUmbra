@@ -2,7 +2,7 @@
 
 <template>
 	<div class="w-full mx-auto flex flex-col gap-2">
-		<img src="/logo.png" />
+		<img src="/Logo.png" />
 		<Separator class="my-4 bg-accent" />
 		<span class="mx-auto text-3xl">Lumen Et Umbra</span>
 		<span class="mx-auto text-2xl">Il primo MUD Italiano</span>

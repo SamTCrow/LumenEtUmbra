@@ -6,7 +6,7 @@
 	<ContentRenderer
 		v-if="page"
 		:value="page"
-		class="text-pretty"
+		class="text-pretty prosa"
 	/>
 	<div v-else>Loading...</div>
 </template>

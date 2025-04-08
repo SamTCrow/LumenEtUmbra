@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+	import { navigationMenuTriggerStyle } from "@/components/ui/navigation-menu";
 	const menuItems = ref([
 		{
 			label: "Home",
@@ -77,6 +78,10 @@
 			],
 		},
 		{
+			label: "Prova",
+			to: "/stories/orfeo",
+		},
+		{
 			icon: "ic:baseline-discord",
 			to: "https://discord.gg/nGAnDCKX",
 			target: "_blank",
@@ -92,7 +97,7 @@
 		<NavigationMenuList class="gap-4">
 			<NavigationMenuItem v-for="item in menuItems">
 				<div v-if="item.children && item.children.length > 0">
-					<NavigationMenuTrigger class="text-lg text-pretty">
+					<NavigationMenuTrigger class="text-lg text-pretty bg-transparent">
 						<span v-if="item.label">{{ item.label }}</span>
 						<Icon
 							v-else
@@ -111,7 +116,8 @@
 				<div v-else>
 					<NavigationMenuLink
 						as-child
-						class="text-lg text-pretty"
+						:class="navigationMenuTriggerStyle()"
+						class="text-lg text-pretty bg-transparent"
 					>
 						<NuxtLink
 							v-if="item.label"

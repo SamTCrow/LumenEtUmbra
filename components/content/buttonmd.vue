@@ -1,5 +1,5 @@
-<script lang="ts" setup></script>
-
 <template>
-	<Button><slot /></Button>
+  <div class="p-2 border bg-white dark:bg-black dark:border-gray-700 rounded">
+    <slot />
+  </div>
 </template>

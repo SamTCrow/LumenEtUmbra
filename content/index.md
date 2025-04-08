@@ -2,7 +2,7 @@
 page: index
 ---
 
-![Logo](/Logo.png){style="margin: auto"}
+:heroBanner
 
 # Benvenuti
 

@@ -405,8 +405,9 @@ e colpisce fino a 3 bersagli. Se viene usata per chiudere la sequenza, guadagna
 | Guad. Energia   | 100                           |
 | Cooldown        | 10 round                      |
 
->Descrizione:
+> Descrizione
 
 Il Guerriero raccoglie tempo, spazio ed energie per preparare
 il suo prossimo attacco. L'uso di questa abilita' porta la Sequenza
 direttamente a Pronta.
+

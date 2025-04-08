@@ -5,10 +5,10 @@
 <template>
 	<div>
 		<NuxtRouteAnnouncer />
-		<div class="w-full">
-			<NavMenu />
-		</div>
-		<div class="w-full px-4 mx-auto max-w-7xl pb-10 h-full flex">
+
+		<NavMenu />
+
+		<div class="w-full px-4 mx-auto max-w-6xl pb-10 h-full">
 			<NuxtPage />
 		</div>
 		<ScrollTop />

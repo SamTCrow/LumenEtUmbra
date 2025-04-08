@@ -47,64 +47,50 @@ body {
 }
 
 .dark {
-	--background: oklch(0.11 0.0453 275.27); /* Viola molto scuro (invariato) */
-	--foreground: oklch(0.985 0 0); /* Bianco (invariato) */
-
-	/* Card: Viola più chiaro e meno saturo dello sfondo */
-	--card: oklch(
-		0.21 0.03 275.27
-	); /* L=0.21 (stessa di prima), C=0.03 (meno saturo), H=275.27 (stessa tonalità viola) */
+	--background: oklch(0.11 0.0453 275.27);
+	--foreground: oklch(0.985 0 0);
+	--card: oklch(0.21 0.03 275.27);
 	--card-foreground: oklch(0.985 0 0);
 
-	--popover: var(--card); /* Usa lo stesso colore della card */
+	--popover: var(--card);
 	--popover-foreground: var(--card-foreground);
 
-	/* --- Colori Primari (Accento Principale - ORO) --- */
-	/* Colore primario (oro/ambrato) */
 	--primary: oklch(0.75 0.15 90);
-	/* Testo su primario (marrone scurissimo) */
+
 	--primary-foreground: oklch(0.15 0.02 90);
 
-	/* --- Colori Secondari e Sfumature --- */
-	/* Grigio neutro, leggermente più chiaro di card */
 	--secondary: oklch(0.28 0.02 275.27);
-	/* Testo su secondario (bianco - mantenuto) */
+
 	--secondary-foreground: oklch(0.985 0 0);
-	/* Grigio per elementi 'muted' (uguale a secondary) */
+
 	--muted: oklch(0.28 0.02 275.27);
-	/* Testo 'muted' (grigio chiaro neutro) */
+
 	--muted-foreground: oklch(0.65 0.01 275.27);
-	/* Colore accento (es. hover) - Oro spento/scuro */
-	--accent: oklch(0.5 0.08 90); /* Oro spento */
+
+	--accent: oklch(0.5 0.08 90);
 	--accent-foreground: oklch(0.985 0 0);
 
-	/* --- Altri Elementi UI --- */
-	/* Colore pericolo (rosso/arancio - mantenuto) */
 	--destructive: oklch(0.704 0.191 22.216);
-	/* Bordi (grigio solido) */
+
 	--border: oklch(0.3 0.025 275.27);
 	--input: oklch(0.18 0.03 275.27);
-	/* Colore focus ring (corrisponde a --primary) */
-	--ring: oklch(0.75 0.15 90); /* Stesso di --primary */
 
-	/* --- Chart Colors (da rivedere se necessario) --- */
-	--chart-1: oklch(0.75 0.15 90); /* Usa il nuovo primario */
-	--chart-2: oklch(
-		0.696 0.17 162.48
-	); /* Ciano - Potrebbe stonare? Valutare alternative neutre/calde */
-	--chart-3: oklch(0.769 0.188 70.08); /* Verde lime - Valutare alternative */
-	--chart-4: oklch(0.627 0.265 303.9); /* Magenta - Valutare alternative */
-	--chart-5: oklch(0.645 0.246 16.439); /* Rosso/Arancio - Ok */
+	--ring: oklch(0.75 0.15 90);
 
-	/* --- Sidebar (adattata ai cambiamenti) --- */
-	--sidebar: var(--card); /* oklch(0.21 0.005 90) */
-	--sidebar-foreground: var(--foreground); /* oklch(0.985 0 0) */
-	--sidebar-primary: var(--primary); /* oklch(0.75 0.15 90) */
-	--sidebar-primary-foreground: var(--primary-foreground); /* oklch(0.15 0.02 90) */
-	--sidebar-accent: var(--accent); /* oklch(0.5 0.08 90) */
-	--sidebar-accent-foreground: var(--accent-foreground); /* oklch(0.985 0 0) */
-	--sidebar-border: var(--border); /* oklch(0.3 0 0) */
-	--sidebar-ring: var(--ring); /* oklch(0.75 0.15 90) */
+	--chart-1: oklch(0.75 0.15 90);
+	--chart-2: oklch(0.696 0.17 162.48);
+	--chart-3: oklch(0.769 0.188 70.08);
+	--chart-4: oklch(0.627 0.265 303.9);
+	--chart-5: oklch(0.645 0.246 16.439);
+
+	--sidebar: var(--card);
+	--sidebar-foreground: var(--foreground);
+	--sidebar-primary: var(--primary);
+	--sidebar-primary-foreground: var(--primary-foreground);
+	--sidebar-accent: var(--accent);
+	--sidebar-accent-foreground: var(--accent-foreground);
+	--sidebar-border: var(--border);
+	--sidebar-ring: var(--ring);
 }
 
 @theme inline {
@@ -157,11 +143,11 @@ body {
 
 @utility prosa {
 	h1 {
-		@apply text-4xl font-extrabold tracking-tight scroll-m-20 lg:text-5xl py-4;
+		@apply text-4xl font-extrabold tracking-tight scroll-m-20 lg:text-5xl py-4 text-accent;
 	}
 
 	h2 {
-		@apply pb-2 text-3xl font-semibold tracking-tight transition-colors border-b scroll-m-20 first:mt-0 py-2;
+		@apply pb-2 text-3xl font-semibold tracking-tight transition-colors border-b border-accent text-primary scroll-m-20 first:mt-0 py-2;
 	}
 
 	h3 {
@@ -194,5 +180,11 @@ body {
 
 	blockquote {
 		@apply mt-6 border-l-2 pl-6 italic;
+	}
+	ul {
+		@apply my-6 ml-6 list-disc [&>li]:mt-2;
+	}
+	* {
+		font-family: "Merriweather", serif;
 	}
 }

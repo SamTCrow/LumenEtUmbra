@@ -143,23 +143,23 @@ body {
 
 @utility prosa {
 	h1 {
-		@apply text-4xl font-extrabold tracking-tight scroll-m-20 lg:text-5xl py-4 text-accent;
+		@apply text-4xl font-extrabold tracking-tight scroll-m-20 lg:text-5xl mt-8 mb-6 text-accent;
 	}
 
 	h2 {
-		@apply pb-2 text-3xl font-semibold tracking-tight transition-colors border-b border-accent text-primary scroll-m-20 first:mt-0 py-2;
+		@apply pb-2 text-3xl font-semibold tracking-tight transition-colors border-b border-accent text-primary scroll-m-20 first:mt-0 mt-6 mb-4;
 	}
 
 	h3 {
-		@apply text-2xl font-semibold tracking-tight scroll-m-20 py-2 underline before:content-['#'];
+		@apply text-2xl font-semibold tracking-tight text-primary scroll-m-20 mt-4 mb-2 mx-auto max-w-prose underline before:content-['#'];
 	}
 
 	p {
-		@apply leading-7 [&:not(:first-child)]:mt-2 [&:not(:last-child)]:mb-2;
+		@apply leading-relaxed [&:not(:first-child)]:mt-2 [&:not(:last-child)]:mb-2 max-w-prose mx-auto;
 	}
 
 	table {
-		@apply w-full m-4;
+		@apply w-full m-4 max-w-prose mx-auto;
 	}
 
 	tr {
@@ -179,11 +179,13 @@ body {
 	}
 
 	blockquote {
-		@apply mt-6 border-l-2 pl-6 italic;
+		@apply mt-6 border-l-2 pl-6 italic max-w-prose mx-auto;
 	}
+
 	ul {
-		@apply my-6 ml-6 list-disc [&>li]:mt-2;
+		@apply list-disc [&>li]:mt-2 max-w-prose mx-auto;
 	}
+
 	* {
 		font-family: "Merriweather", serif;
 	}

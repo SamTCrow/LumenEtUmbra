@@ -8,6 +8,7 @@
 		CardTitle,
 	} from "@/components/ui/card";
 	const { data: posts } = useAsyncData(() => queryCollection("blog").all());
+	
 </script>
 
 <template>

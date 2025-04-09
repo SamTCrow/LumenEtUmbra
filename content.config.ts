@@ -11,7 +11,7 @@ export default defineContentConfig({
 		}),
 		blog: defineCollection({
 			type: "page",
-			source: "blogPost/**",
+			source: "blog/**",
 			schema: z.object({
 				title: z.string(),
 				author: z.string(),

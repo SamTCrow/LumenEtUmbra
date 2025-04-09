@@ -151,7 +151,7 @@ body {
 	}
 
 	h3 {
-		@apply text-2xl font-semibold tracking-tight text-primary scroll-m-20 mt-4 mb-2 mx-auto max-w-prose underline before:content-['#'];
+		@apply text-2xl font-semibold tracking-tight text-primary scroll-m-20 mt-6 mb-2 mx-auto max-w-prose;
 	}
 
 	p {
@@ -183,7 +183,10 @@ body {
 	}
 
 	ul {
-		@apply list-disc [&>li]:mt-2 max-w-prose mx-auto;
+		@apply list-disc [&>li]:mt-2 max-w-prose mx-auto leading-relaxed;
+	}
+	li {
+		@apply max-w-prose ml-5;
 	}
 
 	* {

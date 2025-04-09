@@ -104,13 +104,15 @@
 <template>
 	<div class="mb-4 sticky top-0 bg-gray-900">
 		<NavigationMenu
-			class="p-2 mx-auto"
+			class="p-2 mx-auto transition-colors duration-200"
 			:viewport="false"
 		>
 			<NavigationMenuList class="gap-4">
 				<NavigationMenuItem v-for="item in menuItems">
 					<div v-if="item.children && item.children.length > 0">
-						<NavigationMenuTrigger class="text-lg text-pretty bg-transparent">
+						<NavigationMenuTrigger
+							class="text-lg text-pretty bg-transparent"
+						>
 							<span v-if="item.label">{{ item.label }}</span>
 							<Icon
 								v-else

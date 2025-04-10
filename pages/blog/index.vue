@@ -66,5 +66,6 @@
 				>Post successivi</Button
 			>
 		</div>
+		<ScrollTop />
 	</div>
 </template>

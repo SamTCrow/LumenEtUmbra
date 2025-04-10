@@ -34,6 +34,7 @@
 			class="prosa w-[70%] mx-auto"
 			prose
 		/>
+		<ScrollTop />
 	</div>
 	<div v-else>Loading...</div>
 </template>

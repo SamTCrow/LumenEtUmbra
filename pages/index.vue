@@ -3,10 +3,12 @@
 </script>
 
 <template>
-	<ContentRenderer
-		v-if="page"
-		:value="page"
-		class="text-pretty prosa"
-	/>
-	<div v-else>Loading...</div>
+	<ClientOnly>
+		<ContentRenderer
+			v-if="page"
+			:value="page"
+			class="text-pretty prosa"
+		/>
+		<div v-else>Loading...</div>
+	</ClientOnly>
 </template>

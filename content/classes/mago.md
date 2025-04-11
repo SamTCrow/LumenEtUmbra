@@ -44,29 +44,29 @@ dove x rappresenta il numero di punti Risonanza accumulati.
 ## Lista skill
 
 | Livello | Nome skill                                      | Note              |
-| ------- | ----------------------------------------------- | ----------------- | --- |
+| ------- | ----------------------------------------------- | ----------------- |
 | 1       | [Tocco Incandescente ](#tocco-Incandescente)    |
 | 1       | [Dardo Incantato ](#dardo-incantato)            |
 | 4       | [Tocco Congelante ](#tocco-congelante)          |
-| 5       | [Lama Incantata ](#lama-incantata)              | Max 2 Classi      |     |
+| 5       | [Lama Incantata ](#lama-incantata)              | Max 2 Classi      |
 | 8       | [Cono di Freddo ](#cono-di-freddo)              |
 | 10      | [Crea Acqua ](#crea-acqua)                      |
-| 11      | [Scudo di Risonanza ](#scudo-di-risonanza)      | Classe Principale |     |
-| 12      | [Serpente di Fiamme ](#serpente-di-fiamme)      | Max 2 Classi      |     |
-| 16      | [Immagini Illusorie ](#immagini-illusorie)      | Max 2 Classi      |     |
+| 11      | [Scudo di Risonanza ](#scudo-di-risonanza)      | Classe Principale |
+| 12      | [Serpente di Fiamme ](#serpente-di-fiamme)      | Max 2 Classi      |
+| 16      | [Immagini Illusorie ](#immagini-illusorie)      | Max 2 Classi      |
 | 17      | [Lancia di Ghiaccio ](#lancia-di-ghiaccio)      |
-| 18      | [Venti Invernali ](#venti-invernali)            | Max 2 Classi      |     |
-| 21      | [Catene Ghiacciate ](#catene-ghiacciate)        | Max 2 Classi      |     |
-| 24      | [Fonte di Potere ](#fonte-di-potere)            | Classe Principale |     |
+| 18      | [Venti Invernali ](#venti-invernali)            | Max 2 Classi      |
+| 21      | [Catene Ghiacciate ](#catene-ghiacciate)        | Max 2 Classi      |
+| 24      | [Fonte di Potere ](#fonte-di-potere)            | Classe Principale |
 | 25      | [Palla di Fuoco ](#palla-di-fuoco)              |
 | 30      | [Sentiero Astrale ](#sentiero-astrale)          |
 | 31      | [Disperdi Magie ](#disperdi-magie)              |
-| 35      | [Colpo Dirompente ](#colpo-dirompente)          | Max 2 Classi      |     |
+| 35      | [Colpo Dirompente ](#colpo-dirompente)          | Max 2 Classi      |
 | 36      | [Incendia Magie ](#incendia-magie)              |
-| 41      | [Bomba Vivente ](#bomba-vivente)                | Max 2 Classi      |     |
+| 41      | [Bomba Vivente ](#bomba-vivente)                | Max 2 Classi      |
 | 48      | [Disintegrazione ](#disintegrazione)            |
 | 50      | [Catalizzatore Arcano ](#catalizzatore-arcano)  |
-| 50      | [Squarcia il Velo ](#squarcia-il-velo)          | Solo Monoclasse   |     |
+| 50      | [Squarcia il Velo ](#squarcia-il-velo)          | Solo Monoclasse   |
 | 50      | [Concentrazione Totale](#concentrazione-totale) |
 | 50      | [Maestria con lo Scudo](#maestria-con-lo-scudo) |
 | 50      | [Ambidestria ](#ambidestria)                    |
@@ -300,9 +300,9 @@ e non causando danno.
 Quando un immagine viene colpita, genera un effetto secondario dipendente dalla
 Risonanza della Trama corrente:
 
--                                                                       Fuoco   : Il Mago recupera 3 applicazioni di Scudo di Risonanza.
--                                                                       Freddo  : Genera un'applicazione di Congelamento sull'attaccante.
--                                                                       Energia : Il Mago recupera 3% dei propri Punti Mana.
+-                                                                         Fuoco   : Il Mago recupera 3 applicazioni di Scudo di Risonanza.
+-                                                                         Freddo  : Genera un'applicazione di Congelamento sull'attaccante.
+-                                                                         Energia : Il Mago recupera 3% dei propri Punti Mana.
 
 ### Lancia di Ghiaccio
 
@@ -399,9 +399,9 @@ Spossato per lo stesso periodo di tempo.
 
 L'abilita` ha inoltre un effetto secondario dipendente dalla Risonanza della Trama corrente:
 
--                                                           Fuoco   : Rimuove tutti gli effetti negativi sul Mago, a potenza 1. L'effetto e` aumentato a potenza 5 per gli effetti di tipo Trauma.
--                                                           Freddo  : Rende il Mago Incrollabile per 2 round.
--                                                           Energia : Il recupero di Punti Mana e` aumentato del 50%, e tutti gli effetti positivi presenti sul Mago guadagnano 1 punto di Resistenza alla Dissoluzione.
+-                                                             Fuoco   : Rimuove tutti gli effetti negativi sul Mago, a potenza 1. L'effetto e` aumentato a potenza 5 per gli effetti di tipo Trauma.
+-                                                             Freddo  : Rende il Mago Incrollabile per 2 round.
+-                                                             Energia : Il recupero di Punti Mana e` aumentato del 50%, e tutti gli effetti positivi presenti sul Mago guadagnano 1 punto di Resistenza alla Dissoluzione.
 
 ### Palla di Fuoco
 
@@ -462,9 +462,9 @@ di effetti influenzati e` aumentato di 1 per ogni 20 Energia spesa.
 Se il bersaglio e\` ostile, l'abilita` ha un effetto secondario dipendente
 dalla Risonanza della Trama per ogni effetto influenzato o rimosso:
 
--                                                   Fuoco   : Genera 2 applicazioni di Scudo di Risonanza.
--                                                   Freddo  : Genera 1 applicazione di Congelamento.
--                                                   Energia : Il Mago recupera 3% Punti Mana.
+-                                                     Fuoco   : Genera 2 applicazioni di Scudo di Risonanza.
+-                                                     Freddo  : Genera 1 applicazione di Congelamento.
+-                                                     Energia : Il Mago recupera 3% Punti Mana.
 
 ### Colpo Dirompente
 
@@ -620,9 +620,9 @@ dalla forma, e non puo\` usare abilita` con Risonanza differente.
 
 Le abilita` guadagnate sono:
 
--                           Fuoco   : Sciame di Meteore, Nube Incendiaria
--                           Freddo  : Incastona nel Ghiaccio, Frantumazione
--                           Energia : Scarica Arcana, Assorbi Magia
+-                             Fuoco   : Sciame di Meteore, Nube Incendiaria
+-                             Freddo  : Incastona nel Ghiaccio, Frantumazione
+-                             Energia : Scarica Arcana, Assorbi Magia
 
 ### Sciame di Meteore
 

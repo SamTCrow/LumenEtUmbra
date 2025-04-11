@@ -4,12 +4,12 @@ page: mago
 
 # Il mago
 
-Il mago e\` la classe piu` esperta per quanto riguarda incantesimi e arti 
+Il mago e\` la classe piu\` esperta per quanto riguarda incantesimi e arti
 magiche in generale, forte dei suoi profondi studi in materia.
 Il mago e\` particolarmente ferrato nell`arte di offendere tramite magia il suo
 avversario.
 
-Ad Alma (via delle gilde) e` presente una gilda dei maghi con un maestro che 
+Ad Alma (via delle gilde) e\` presente una gilda dei maghi con un maestro che
 iniziera` i giovani ai primi rudimenti della loro arte.
 
 > Il mago riesce a dominare fuoco, freddo ed energia e con
@@ -20,7 +20,7 @@ grado di sfruttare, Fuoco, Freddo
 o Energia, genera un accumulo di magia residua,
 denominato Risonanza della Trama.
 
-Se il Mago e\` gia\` allineato all`elemento, guadagna un punto di Risonanza,
+Se il Mago e\` gia\` allineato all\`elemento, guadagna un punto di Risonanza,
 fino ad un massimo di 5 punti, o 10 se e` in forma elementale.
 Altrimenti, la Risonanza si allinea al nuovo elemento, torna ad
 un punto, ed il Mago guadagna 30 punti Energia, +30 per ogni
@@ -300,9 +300,9 @@ e non causando danno.
 Quando un immagine viene colpita, genera un effetto secondario dipendente dalla
 Risonanza della Trama corrente:
 
--                                                                         Fuoco   : Il Mago recupera 3 applicazioni di Scudo di Risonanza.
--                                                                         Freddo  : Genera un'applicazione di Congelamento sull'attaccante.
--                                                                         Energia : Il Mago recupera 3% dei propri Punti Mana.
+-   Fuoco : Il Mago recupera 3 applicazioni di Scudo di Risonanza.
+-   Freddo : Genera un'applicazione di Congelamento sull'attaccante.
+-   Energia : Il Mago recupera 3% dei propri Punti Mana.
 
 ### Lancia di Ghiaccio
 
@@ -391,17 +391,18 @@ dell'effetto.
 Descrizione:
 
 Il Mago convoglia tutta l'Energia accumulata in una scarica di potere che scorre nel suo
-corpo, guarendolo e ripristinando Punti Mana pari alla meta` della guarigione. Per i seguenti
-4 round, il Mago recupera ulteriore mana, pari al 25% della guarigione iniziale. Se l'abilita`
+corpo, guarendolo e ripristinando Punti Mana pari alla meta\` della guarigione. Per i seguenti
+4 round, il Mago recupera ulteriore mana, pari al 25% della guarigione iniziale. Se l'abilita\`
 viene usata nuovamente durante questo effetto, causa 1.5 round di attesa, replica l'effetto
 iniziale di guarigione aumentato del 25%, entra in cooldown per 8 round e rende il Mago
 Spossato per lo stesso periodo di tempo.
 
 L'abilita` ha inoltre un effetto secondario dipendente dalla Risonanza della Trama corrente:
 
--                                                             Fuoco   : Rimuove tutti gli effetti negativi sul Mago, a potenza 1. L'effetto e` aumentato a potenza 5 per gli effetti di tipo Trauma.
--                                                             Freddo  : Rende il Mago Incrollabile per 2 round.
--                                                             Energia : Il recupero di Punti Mana e` aumentato del 50%, e tutti gli effetti positivi presenti sul Mago guadagnano 1 punto di Resistenza alla Dissoluzione.
+-   Fuoco : Rimuove tutti gli effetti negativi sul Mago, a potenza 1.<br>
+    L'effetto e\` aumentato a potenza 5 per gli effetti di tipo Trauma.
+-   Freddo : Rende il Mago Incrollabile per 2 round.
+-   Energia : Il recupero di Punti Mana e\` aumentato del 50%, e tutti gli effetti positivi presenti sul Mago guadagnano 1 punto di Resistenza alla Dissoluzione.
 
 ### Palla di Fuoco
 
@@ -456,15 +457,15 @@ i bersagli ostili, fino ad un massimo di 15.
 Descrizione:
 
 Il Mago disperde le energie magiche attorno ad un bersaglio.
-La Potenza di Dissoluzione e` aumentata di 1 per ogni 50 Energia spesa, ed il numero
+La Potenza di Dissoluzione e\` aumentata di 1 per ogni 50 Energia spesa, ed il numero
 di effetti influenzati e` aumentato di 1 per ogni 20 Energia spesa.
 
 Se il bersaglio e\` ostile, l'abilita` ha un effetto secondario dipendente
 dalla Risonanza della Trama per ogni effetto influenzato o rimosso:
 
--                                                     Fuoco   : Genera 2 applicazioni di Scudo di Risonanza.
--                                                     Freddo  : Genera 1 applicazione di Congelamento.
--                                                     Energia : Il Mago recupera 3% Punti Mana.
+-   Fuoco : Genera 2 applicazioni di Scudo di Risonanza.
+-   Freddo : Genera 1 applicazione di Congelamento.
+-   Energia : Il Mago recupera 3% Punti Mana.
 
 ### Colpo Dirompente
 
@@ -615,14 +616,14 @@ Il Mago si abbandona alla Trama, trasformandosi temporaneamente in una forma ele
 relativa alla Risonanza della Trama corrente.
 
 Durante la trasformazione, l'Energia viene
-recuperata automaticamente, ed il mago guadagna accesso ad abilita` uniche, dipendenti
+recuperata automaticamente, ed il mago guadagna accesso ad abilita\` uniche, dipendenti
 dalla forma, e non puo\` usare abilita` con Risonanza differente.
 
 Le abilita` guadagnate sono:
 
--                             Fuoco   : Sciame di Meteore, Nube Incendiaria
--                             Freddo  : Incastona nel Ghiaccio, Frantumazione
--                             Energia : Scarica Arcana, Assorbi Magia
+- Fuoco   : Sciame di Meteore, Nube Incendiaria
+- Freddo  : Incastona nel Ghiaccio, Frantumazione
+- Energia : Scarica Arcana, Assorbi Magia
 
 ### Sciame di Meteore
 

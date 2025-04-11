@@ -4,30 +4,30 @@ page: paladino
 
 # Paladino
 
-Il Paladino e\` la classe che meglio incarna l`onore nel combattimento, 
-e la dedizione di un guerriero alla propria divinita`, Jolnit.
-Il Paladino nell\`affrontare l\`avversario oltre all\`aiuto delle armi potra` 
+Il Paladino e\` la classe che meglio incarna l\`onore nel combattimento, 
+e la dedizione di un guerriero alla propria divinita\`, Jolnit.
+Il Paladino nell\`affrontare l\`avversario oltre all\`aiuto delle armi potra\` 
 quindi far valere l`aiuto del suo nume tutelare riuscendo a far valere il
 suo onore anche contro ogni previsione.
 
-Ad Alma (via delle gilde) e` presente una il tempio di Jolnit con un 
+Ad Alma (via delle gilde) e\` presente una il tempio di Jolnit con un 
 maestro che iniziera` i giovani paladini ai primi rudimenti della loro
 arte.
 
 > Contro ogni previsione
 
 Quando il Paladino si trova di fronte a situazioni disperate, ovvero quando
-il numero dei nemici in stanza e` almeno 2 volte il numero dei componenti del 
-gruppo o se il paladino e` in completa solitudine, la protezione di Jolnit
+il numero dei nemici in stanza e\` almeno 2 volte il numero dei componenti del 
+gruppo o se il paladino e\` in completa solitudine, la protezione di Jolnit
 si fa piu\` intensa, raddoppiando i bonus ottenuti dalle abilita` di Voto.
 
 > Voto
 
-Il paladino fa una voto alla propria Divinita` e tutti i personaggi in gruppo 
-e stanza con il Paladino beneficiano dell`effetto passivo del Voto attualmente
+Il paladino fa una voto alla propria Divinita\` e tutti i personaggi in gruppo 
+e stanza con il Paladino beneficiano dell\`effetto passivo del Voto attualmente
 in corso.
 Qualora il Paladino sia affetto da contro ogni previsione, il bonus del
-Voto sul paladino stesso e` raddoppiato.
+Voto sul paladino stesso e\` raddoppiato.
 Il Voto influenza le modalita\` di acquisizione dell`energia.
 
 ## Lista skill
@@ -58,7 +58,7 @@ Il Voto influenza le modalita\` di acquisizione dell`energia.
 
 ### Sfondare le Porte
 
-Dove l\`astuzia e l\`abilita` non arriva, facciamoci aiutare dalla forza bruta.
+Dove l\`astuzia e l\`abilita\` non arriva, facciamoci aiutare dalla forza bruta.
 Se un uscita e` chiusa, possiamo sempre provare a sfondare la porta con il
 comando:
 
@@ -68,13 +68,13 @@ doorbash uscita/direzione
 Attenzione che non e\` attivita` priva di rischi: se la porta non si apre si
 rischia di restare storditi
 
-Ovviamente sarebbe un po\` complicato sfondare un`uscita posta in alto, quindi 
+Ovviamente sarebbe un po\` complicato sfondare un\`uscita posta in alto, quindi 
 per vie bloccate in quella direzione, bisognera` trovare soluzioni alternative..
 
 ### Scassinare
 
-Come i migliori ladri, potete imparare a scassinare le porte, abilita` una volta
-nota solo ai professionisti e poi resa disponibile tramite l`uso di costosi e
+Come i migliori ladri, potete imparare a scassinare le porte, abilita\` una volta
+nota solo ai professionisti e poi resa disponibile tramite l\`uso di costosi e
 fragili attrezzi, oggi e` nelle mani (letteralmente) di tutti, tramite il
 comando:
 
@@ -231,7 +231,7 @@ altrove, costringendolo ad attaccarlo e rendendolo Ossessionato per 3 round.
 > Descrizione
 
 Il Paladino condanna un bersaglio per i suoi peccati, richiamando l'ira divina
-nei suoi confronti. L'abilita` guadagna un bonus crescente all'Eff. Fisica
+nei suoi confronti. L'abilita\` guadagna un bonus crescente all'Eff. Fisica
 in funzione dell'Energia consumata, fino ad un massimo di 400%, ed un bonus
 ulteriore di 150% Eff. Fisica se il bersaglio e` in corpo a corpo con il Paladino.
 

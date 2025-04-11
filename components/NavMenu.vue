@@ -60,6 +60,14 @@
 			label: "Il gioco",
 			children: [
 				{
+					label: "Meccaniche di Gioco",
+					to: "/game/howtoplay",
+				},
+				{
+					label: "Guida per Principianti",
+					to: "/game/newbie",
+				},
+				{
 					label: "Regolamento",
 					to: "/game/rules",
 				},
@@ -110,9 +118,7 @@
 			<NavigationMenuList class="gap-4">
 				<NavigationMenuItem v-for="item in menuItems">
 					<div v-if="item.children && item.children.length > 0">
-						<NavigationMenuTrigger
-							class="text-lg text-pretty bg-transparent"
-						>
+						<NavigationMenuTrigger class="text-lg text-pretty bg-transparent">
 							<span v-if="item.label">{{ item.label }}</span>
 							<Icon
 								v-else

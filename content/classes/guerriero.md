@@ -77,9 +77,9 @@ Dove l'astuzia e l'abilita non arriva, facciamoci aiutare dalla forza bruta.
 Se un uscita e' chiusa, possiamo sempre provare a sfondare la porta con il
 comando:
 
-sfonda uscita/direzione
+> sfonda uscita/direzione
 
-doorbash uscita/direzione
+> doorbash uscita/direzione
 
 Attenzione che non e' attivita' priva di rischi: se la porta non si apre si
 rischia di restare storditi.
@@ -91,9 +91,9 @@ per vie bloccate in quella direzione, bisognera' trovare soluzioni alternative..
 Ti consente di cambiare avversario se sei coinvolto con piu' attaccanti, o
 se nella locazione sono presenti piu' avversari.
 
-colpisci avversario
+> colpisci avversario
 
-hit avversario
+> hit avversario
 
 Se fallisci smetti di attaccare chiunque (ma quello che stavi attaccando
 non smette di attaccare te!).

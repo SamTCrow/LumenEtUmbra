@@ -594,4 +594,4 @@ Un attacco a due mani ha un moltiplicatore base di 300%.
 > Descrizione
 
 Il Chierico invoca l'intervento divino per guarire le ferite piu` gravi.
-Il cooldown dell'abilita\` puo` essere ridotto con l'utilizzo di [Guarigione](#guarigione).
+Il cooldown dell'abilita' puo' essere ridotto con l'utilizzo di [Guarigione](#guarigione).

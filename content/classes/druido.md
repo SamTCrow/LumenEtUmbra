@@ -42,7 +42,7 @@ all'abilità proporzionale allo spostamento di affinità.
 | ------- | ----------------------------------------------------- | ----------------- |
 | 1       | [Crea Acqua ](#crea-acqua)                            |
 | 3       | [Evoca Fulmine ](#evoca-fulmine)                      |
-| 6       | [Seme Della Rinascita ](#seme-della-rinascia)         |
+| 6       | [Seme Della Rinascita ](#seme-della-rinascita)        |
 | 7       | [Parla con Piante ](#parla-con-piante)                |
 | 8       | [Viaggio Arboreo ](#viaggio-arboreo)                  |
 | 10      | [Rinnovamento ](#rinnovamento)                        | Classe Principale |
@@ -420,7 +420,7 @@ forma animale, ognuna delle quali presenta caratteristiche uniche.
 
 > Forme Disponibli:
 
-#### Orso Grizzly
+### Orso Grizzly
 
 Razza un predatore.
 Non puoi modificare l'equipaggiamento in questa forma.
@@ -433,17 +433,18 @@ Resistenza a Perforazione : +75.
 Resistenza a Taglio : +75.
 
 Ti consente di usare le seguenti abilita':
-Artiglio Fatale
-Ruggito Selvaggio
 
-Descrizione:
+-   Artiglio Fatale
+-   Ruggito Selvaggio
+
+> Descrizione
 
 Il Druido si trasforma in un feroce Orso Grizzly, facendo tesoro della sua
 potenza fisica e incredibile resistenza, che lo rende Incrollabile per la durata
 della trasformazione. Inoltre, se al momento della trasformazione il Druido e'
 affetto dal proprio [Seme della Rinascita](#seme-della-rinascita), la sua durata viene prolungata di 5 round.
 
-#### Gatto Selvatico
+### Gatto Selvatico
 
 Razza un predatore.
 Non puoi modificare l'equipaggiamento in questa forma.
@@ -452,19 +453,20 @@ Non puoi lanciare incantesimi in questa forma.
 Causa un malus di -30% ai tuoi punti ferita massimi.
 
 Ti consente di usare le seguenti abilita':
-Muoversi Silenziosamente
-Nascondersi
-Balzo Felino
-Mutilare
 
-Descrizione:
+-   Muoversi Silenziosamente
+-   Nascondersi
+-   Balzo Felino
+-   Mutilare
+
+> Descrizione
 
 Il Druido si trasforma in un agile felino selvatico di dimensioni modeste, in grado di
 muoversi in perfetto silenzio, nascondersi alla vista, ed assaltare dalle ombre in caso di
 necessita'. La sua gracilita' e' compensata da un'innata agilita' ed esplosivita', che lo
 rende Inarrestabile.
 
-#### Driade dei Boschi
+### Driade dei Boschi
 
 Razza un albero.
 Non puoi modificare l'equipaggiamento in questa forma.
@@ -480,7 +482,7 @@ Provera' ad usare autonomamente le seguenti abilita':
 Colpo Fiammeggiante (in combattimento) (liv. min 15)
 Dolore (in combattimento) (liv. min 35)
 
-Descrizione:
+> Descrizione
 
 Il Druido si trasforma in una creatura della foresta, guadagnando un bonus pari alla
 meta' del suo livello in Danno Natura, ed efficacia migliorata sensibilmente per tutti

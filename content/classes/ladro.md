@@ -35,7 +35,7 @@ con il parametro %K
 | 10      | [Ambidestria ](#ambidestria)                          |
 | 10      | [Evasione ](#evasione)                                |
 | 10      | [Volteggio ](#volteggio)                              |
-| 10      | [Avvelena le Armi ](#avvelena-le-armi)                |
+| 10      | [Avvelena le Armi ](#avvelena-armi)                   |
 | 15      | [Sangue Freddo ](#sangue-freddo)                      |
 | 18      | [Cospira ](#cospira)                                  |
 | 21      | [Aggirare ](#aggirare)                                |

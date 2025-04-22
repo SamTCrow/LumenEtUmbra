@@ -112,7 +112,7 @@
 <template>
 	<div class="mb-4 sticky top-0 bg-gray-900">
 		<NavigationMenu
-			class="p-2 mx-auto transition-colors duration-200"
+			class="p-2 mx-auto transition-colors duration-200 hidden md:flex"
 			:viewport="false"
 		>
 			<NavigationMenuList class="gap-4">
@@ -161,6 +161,29 @@
 				</NavigationMenuItem>
 			</NavigationMenuList>
 		</NavigationMenu>
+		<div class="md:hidden flex justify-between items-center align-middle px-2">
+			<NuxtLink to="/">LeU</NuxtLink>
+			<Drawer>
+				<DrawerTrigger>
+					<Icon
+						name="ic:baseline-menu"
+						size="2em"
+					/>
+				</DrawerTrigger>
+				<DrawerContent>
+					<DrawerClose>
+						<div class="flex flex-col gap-2 ml-4">
+							<NuxtLink
+								v-for="item in menuItems"
+								:to="item.to"
+							>
+								{{ item.label }}</NuxtLink
+							>
+						</div>
+					</DrawerClose>
+				</DrawerContent>
+			</Drawer>
+		</div>
 		<Separator class="bg-accent" />
 	</div>
 </template>

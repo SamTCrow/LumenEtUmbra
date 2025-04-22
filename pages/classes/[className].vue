@@ -31,10 +31,16 @@
 		</div>
 		<ContentRenderer
 			:value="page"
-			class="prosa w-[70%] mx-auto"
+			class="prosa md:w-[70%] w-full "
 			prose
 		/>
 		<ScrollTop />
 	</div>
 	<div v-else>Loading...</div>
 </template>
+
+<style lang="css" scoped>
+	table {
+		overflow-y: scroll;
+	}
+</style>

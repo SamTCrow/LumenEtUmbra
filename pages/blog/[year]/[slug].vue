@@ -8,7 +8,7 @@
 		v-if="blogPost"
 		class="prosa"
 	>
-		<h1 class="border-b border-accent">{{ blogPost.title }}</h1 class="mx-auto border-b border-accent">
+		<h1 class="border-b border-accent">{{ blogPost.title }}</h1>
       <div class="flex justify-between mb-6 text-lg text-primary">
         <span>{{ blogPost.author }}</span>
         <span>{{ new Date(blogPost.date).toLocaleDateString() }}</span>

@@ -19,7 +19,7 @@
 	<div class="flex flex-col gap-4">
 		<Card
 			v-for="post in posts"
-			class="w-[60%] mx-auto hover:border-accent border transition-colors duration-150"
+			class="w-full md:w-[60%] mx-auto hover:border-accent border transition-colors duration-150"
 		>
 			<NuxtLink :to="post.path">
 				<CardHeader>

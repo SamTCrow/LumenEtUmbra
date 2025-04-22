@@ -1,7 +1,5 @@
 <script setup lang="ts">
 	import { useWindowScroll } from "@vueuse/core";
-
-	
 </script>
 
 <template>
@@ -10,9 +8,8 @@
 
 		<NavMenu />
 
-		<div class="w-full px-4 mx-auto max-w-6xl pb-10 h-full">
+		<div class="w-full md:px-4 px-2 md:mx-auto md:max-w-6xl md:pb-10 h-full">
 			<NuxtPage />
 		</div>
-		
 	</div>
 </template>

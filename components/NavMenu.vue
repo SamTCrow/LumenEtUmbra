@@ -115,7 +115,7 @@
 </script>
 
 <template>
-	<div class="mb-4 sticky top-0 bg-gray-900">
+	<div class="mb-4 z-99 sticky top-0 bg-gray-900">
 		<NavigationMenu
 			class="p-2 mx-auto transition-colors duration-200 hidden md:flex"
 			:viewport="false"
@@ -124,7 +124,11 @@
 				<NavigationMenuItem v-for="item in menuItems">
 					<div v-if="item.children && item.children.length > 0">
 						<NavigationMenuTrigger class="text-lg text-pretty bg-transparent">
-							<NuxtLink v-if="item.label" :to="item.to">{{ item.label }}</NuxtLink>
+							<NuxtLink
+								v-if="item.label"
+								:to="item.to"
+								>{{ item.label }}</NuxtLink
+							>
 							<Icon
 								v-else
 								:name="item.icon"

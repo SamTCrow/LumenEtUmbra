@@ -3,7 +3,7 @@
 	const classes = [
 		{
 			label: "Guerriero",
-			image: "warrior.png",
+			image: "/images/warrior.png",
 			to: "/classes/guerriero",
 		},
 		{
@@ -62,7 +62,8 @@
 			class="relative size-52 items-center flex justify-center mx-auto border-2 border-accent rounded-md align-middle hover:border-primary transition-colors duration-200"
 		>
 			<div
-				:class="`absolute inset-0 bg-cover bg-center opacity-60 bg-[url(/images/${classe.image})] `"
+				:class="`absolute inset-0 bg-cover bg-center opacity-60`"
+				:style="{ 'background-image': `url(${classe.image})` }"
 			></div>
 			<span class="text-3xl font-medium text-shadow-lg text-shadow-black z-10">
 				{{ classe.label }}

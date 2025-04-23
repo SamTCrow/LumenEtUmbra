@@ -54,10 +54,15 @@
 					label: "Psionico",
 					to: "/classes/psionico",
 				},
+				{
+					label: "Monaco",
+					to: "/classes/monaco",
+				},
 			],
 		},
 		{
 			label: "Il gioco",
+			to: "/game",
 			children: [
 				{
 					label: "Meccaniche di Gioco",
@@ -93,7 +98,7 @@
 		},
 		{
 			label: "Storie",
-
+			to: "/stories",
 			children: [
 				{
 					label: "prova",
@@ -119,7 +124,7 @@
 				<NavigationMenuItem v-for="item in menuItems">
 					<div v-if="item.children && item.children.length > 0">
 						<NavigationMenuTrigger class="text-lg text-pretty bg-transparent">
-							<span v-if="item.label">{{ item.label }}</span>
+							<NuxtLink v-if="item.label" :to="item.to">{{ item.label }}</NuxtLink>
 							<Icon
 								v-else
 								:name="item.icon"

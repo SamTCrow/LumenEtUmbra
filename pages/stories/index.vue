@@ -1,9 +1,7 @@
 <script lang="ts" setup>
-//TODO pagina delle storie
+	//TODO pagina delle storie
 </script>
 
 <template>
-  <div>
-    
-  </div>
+	<div>Lista storie</div>
 </template>

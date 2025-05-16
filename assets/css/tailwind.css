@@ -139,6 +139,10 @@ body {
 	body {
 		@apply bg-background text-foreground;
 	}
+
+	.link {
+		@apply hover:text-primary transition-colors duration-200;
+	}
 }
 
 @utility prosa {

@@ -19,7 +19,7 @@
 		{
 			label: "Chierico",
 			image: "",
-			to: "/classes/Chierico",
+			to: "/classes/chierico",
 		},
 		{
 			label: "Paladino",

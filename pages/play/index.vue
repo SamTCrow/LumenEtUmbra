@@ -8,13 +8,9 @@
 		v-if="page"
 		class="flex gap-4"
 	>
-		<Toc
-			v-if="page.body.toc"
-			:links="page.body.toc.links"
-		/>
 		<ContentRenderer
 			:value="page"
-			class="prosa md:w-[70%] w-full"
+			class="prosa md:w-[70%] w-full mx-auto"
 			prose
 		/>
 		<ScrollTop />

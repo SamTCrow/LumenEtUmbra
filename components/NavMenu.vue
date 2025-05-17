@@ -173,7 +173,7 @@
 		<div class="md:hidden flex justify-between items-center align-middle px-2">
 			<NuxtLink to="/">LeU</NuxtLink>
 			<Drawer>
-				<DrawerTrigger>
+				<DrawerTrigger class="flex items-center align-middle">
 					<Icon
 						name="ic:baseline-menu"
 						size="2em"
